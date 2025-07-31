@@ -15,13 +15,13 @@ def anagram_generator(input_text):
     return valid_anagrams
 
 input_text = input("Enter your input: ").lower()
-
 while(not input_text.isalpha()):
     input_text = input("Enter your input: ").lower()
 
 result = anagram_generator(input_text)
-
 if  result:
     print(f"Given word {input_text} is Anagram, becasue we got {result}")
 else:
     print(f"Given {input_text} is not Anagram")
+
+# testing
