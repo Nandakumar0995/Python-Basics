@@ -7,6 +7,4 @@ elif (mark >=81 and mark <=90):
 elif (mark >=71 and mark <=80):
      print("You acquired Grade C")
 elif (mark <=70):
-     print("You are Fail -------")
-
- # nothing to change
+     print("You are Fail")
